@@ -1,0 +1,115 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    color: #2f2f2f9a;
+}
+
+.contenedor-general{
+    
+    margin-top: 40px;
+    
+}
+
+.contenedor-pokemones{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 230px;
+    
+}
+
+.contenedor-bulbasaur, .contenedor-charmander, .contenedor-squirtle{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 900px;
+    height: 170px;
+}
+
+
+.contenedor-bulbasaur:hover{
+    cursor: pointer;
+    background-color:  whitesmoke;
+
+}
+
+.contenedor-charmander:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+.contenedor-squirtle:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+
+
+.contenedor-bulbasaur img, .contenedor-charmander img, .contenedor-squirtle img{
+   width: 100px;
+   height: 100px;
+   padding-top: 40px;
+}
+
+.contenedor-bulbasaur{
+    background-color: #75ddb79e;
+    border-radius: 24px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+}
+
+.contenedor-charmander{
+    background-color: #ee8c4274;
+    border-radius: 24px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.contenedor-squirtle{
+    background-color: #73aab36d;
+    border-radius: 24px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+.contenedor-bulbasaur div{
+    background-color: #43928d9a;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+}
+
+.contenedor-squirtle div{
+    background-color: #73abb3;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.contenedor-charmander div{
+    background-color: #ee8d42;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+}
+
+.texto-instrucción{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 700px;
+    height: 70px;
+    background-color:#fbce047e;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-left: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+}
+
+.logo{
+    height: 80px;
+    width: 190px;
+    padding-left: 600px;
+    padding-bottom: 20px;
+}
